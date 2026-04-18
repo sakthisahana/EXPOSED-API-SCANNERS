@@ -1,0 +1,25 @@
+{
+  "signatures": [
+    {
+      "id": "SIG-001",
+      "name": "Stripe Secret Key",
+      "pattern": "sk_live_[0-9a-zA-Z]{24}",
+      "provider": "Stripe",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SIG-002",
+      "name": "AWS Access Key",
+      "pattern": "AKIA[0-9A-Z]{16}",
+      "provider": "AWS",
+      "severity": "HIGH"
+    },
+    {
+      "id": "SIG-003",
+      "name": "Generic API Key",
+      "pattern": "api_key\\s*=\\s*['\"][a-zA-Z0-9_\\-]{20,40}['\"]",
+      "provider": "Generic",
+      "severity": "MEDIUM"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mappings": {
+    "CRITICAL": ["Access Control Policy", "Data Protection Act"],
+    "HIGH": ["Secure Coding Standards", "Cloud Security Policy"],
+    "MEDIUM": ["Internal Development Guidelines"],
+    "LOW": ["Best Practice Advisory"]
+  }
+}
